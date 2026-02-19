@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch) - PatientMgmtApplication",
+      "request": "launch",
+      "mainClass": "com.example.patientmgmt.PatientMgmtApplication",
+      "projectName": "patientmgmtsys"
+    }
+  ]
+}

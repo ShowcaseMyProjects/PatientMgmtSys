@@ -1,0 +1,9 @@
+{
+  "files.exclude": {
+    ".idea/": true
+  },
+  "search.exclude": {
+    ".idea/": true
+  },
+  "java.configuration.updateBuildConfiguration": "automatic"
+}
