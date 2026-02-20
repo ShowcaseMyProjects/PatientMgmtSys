@@ -6,3 +6,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+
+# Default credentials for development/demo. Override via environment variables:
+# APP_SECURITY_USERNAME and APP_SECURITY_PASSWORD
+app:
+  security:
+    username: ${APP_SECURITY_USERNAME:demo-user}
+    password: ${APP_SECURITY_PASSWORD:changeme}
