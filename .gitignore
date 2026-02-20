@@ -1,0 +1,21 @@
+# Ignore local Gradle wrapper scripts and metadata (keep them local only)
+app/gradlew
+app/gradlew.bat
+app/gradle/wrapper/
+app/.gradle/
+app/build/
+
+demo/gradlew
+demo/gradlew.bat
+demo/gradle/wrapper/
+demo/.gradle/
+demo/build/
+
+# Gradle wrapper jars/properties (local-only)
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
