@@ -19,6 +19,6 @@ jobs:
           distribution: temurin
           java-version: '21'
 
-      - name: Build demo
-        working-directory: demo
+      - name: Build app
+        working-directory: app
         run: ./gradlew clean build --no-daemon
