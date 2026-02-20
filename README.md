@@ -19,7 +19,7 @@ Monorepo containing the Patient Management system and a `demo/` Spring Boot exam
 
 ## Next steps
 
-- Open a PR to start code review (I can open it for you if you provide GitHub CLI auth or a PAT).  
+- Open a PR to start code review. Authenticate locally with `gh auth login` and run `gh pr create`, or open a PR via the GitHub web UI. Do not share personal access tokens or GitHub CLI authentication with external tools or services.  
 - Add CI checks for `demo/` (Gradle/Maven workflows) if desired.
 
 ---
