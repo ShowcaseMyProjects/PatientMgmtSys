@@ -5,8 +5,9 @@ Monorepo containing the Patient Management system and a `demo/` Spring Boot exam
 ## demo/
 
 - Location: `demo/` (Spring Boot Gradle project)
-- How to run locally:
-  - ./demo/gradlew bootRun
+- How to run locally (from the repository root):
+  - cd demo
+  - ./gradlew bootRun
   - App URL: http://localhost:8080
   - H2 console (if enabled in `application.properties`) : http://localhost:8080/h2-console
 
