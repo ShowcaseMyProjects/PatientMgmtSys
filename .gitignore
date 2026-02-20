@@ -1,7 +1,4 @@
 # Ignore local Gradle wrapper scripts and metadata (keep them local only)
-app/gradlew
-app/gradlew.bat
-app/gradle/wrapper/
 app/.gradle/
 app/build/
 
